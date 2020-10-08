@@ -1,0 +1,22 @@
+.backgroundLayout{
+    position: fixed;
+    top:30%;
+    left:30%;
+    color: rgb(109, 44, 38);
+}
+label {
+    display: block;
+    font: .9rem 'Fira Sans', sans-serif;
+    padding-top: 20px;
+}
+input{
+    
+    display: block;
+    opacity: 0.5;
+}
+.buttonStyle{
+    opacity: 0.5;
+}
+.buttonLayout{
+    padding-top: 20px;
+}

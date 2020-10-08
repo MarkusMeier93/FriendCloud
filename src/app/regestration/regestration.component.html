@@ -1,1 +1,21 @@
-<p>regestration works!</p>
+<div class="backgroundLayout">
+   <h1>Bitte füllen sie die folgenden Felder aus</h1>
+   <div>
+    <div>
+        <label>Bitte geben Sie den BenuterName oder EMail ein</label>
+        <input #loginUserName type="text" placeholder="BenuterName"/>
+    </div>
+    <div >  
+        <label>Bitte geben Sie das E-Mail ein</label>
+        <input #loginEmail type="text" placeholder="E-Mail"/>
+    </div>
+       <div>
+        <label>Bitte geben Sie das Passwort ein</label>
+        <input #loginPassWord type="password" placeholder="Passwort"/>
+       </div>
+       <div class="buttonLayout">
+        <button class="buttonStyle" (click)="tryToLogin(loginUserName.value,loginPassWord.value)">Einloggen</button>
+        <button class="buttonStyle" (click)="changeToStartSeite()" >Zurück</button>
+    </div>
+   </div>
+</div>

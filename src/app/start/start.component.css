@@ -1,9 +1,30 @@
 .buttonStyle{
   text-align: center;
+  padding-bottom: 1cm;
+}
+.h1Layout{
+    padding-right: 2cm;
+    padding-left: 2cm;
 }
 .backgroundLayout{
+    color: rgb(109, 44, 38);
     position: fixed;
     top:30%;
     left:30%;
-    background-color: blue;
+    
+   
 }
+.btn {
+    opacity: 0.5;
+    background-color: rgba(7, 7, 7, 0); /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(135, 135, 135);
+  }
