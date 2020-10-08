@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="backgroundLayout">
+    <div>
+        <label>Herzlich Wilkommne</label>
+        <label #userName id="userLabel"></label>
+    </div>
+    <input type="text" #tbName id="tbName">
+    <label #lblName id="lblName">Hallo</label>
+        <button type="submit" (click)="changeLabelName(lblName.id, tbName.value)" id="bt">        Click Me
+        </button>
+
+</div>

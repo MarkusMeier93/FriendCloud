@@ -13,9 +13,8 @@ export class RegestrationComponent implements OnInit {
   ngOnInit(): void {
   }
   tryToLogin(username:string,password:string){
-    console.log(username);
     if(username=="Markus" && password=="test123"){
-      this.router.navigate(['/login-component'],{ queryParams: { user:username}})
+      this.router.navigate(['/login-component']);
     }
 
   }

@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="backgroundLayout">
    <h1>Bitte füllen sie die folgenden Felder aus</h1>
    <div>
@@ -14,8 +15,8 @@
         <input #loginPassWord type="password" placeholder="Passwort"/>
        </div>
        <div class="buttonLayout">
-        <button class="buttonStyle" (click)="tryToLogin(loginUserName.value,loginPassWord.value)">Einloggen</button>
-        <button class="buttonStyle" (click)="changeToStartSeite()" >Zurück</button>
+        <button class="btn" (click)="tryToLogin(loginUserName.value,loginPassWord.value)"><i class="fa fa-sign-in"></i> Einloggen</button>
+        <button class="btn" (click)="changeToStartSeite()"><i class="fa fa-undo"></i> Zurück</button>
     </div>
    </div>
 </div>
