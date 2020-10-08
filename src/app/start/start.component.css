@@ -1,0 +1,9 @@
+.buttonStyle{
+  text-align: center;
+}
+.backgroundLayout{
+    position: fixed;
+    top:30%;
+    left:30%;
+    background-color: blue;
+}
