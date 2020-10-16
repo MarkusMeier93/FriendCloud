@@ -7,6 +7,8 @@ import { LoginComponent } from './login/login.component';
 import { RegestrationComponent } from './regestration/regestration.component';
 import { StartComponent } from './start/start.component';
 import { HauptbildschirmComponent } from './hauptbildschirm/hauptbildschirm.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { HauptbildschirmComponent } from './hauptbildschirm/hauptbildschirm.comp
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
